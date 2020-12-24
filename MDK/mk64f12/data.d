@@ -1,0 +1,9 @@
+.\mk64f12\data.o: Data.c
+.\mk64f12\data.o: ..\Libraries\drivers\K\inc\arm_math.h
+.\mk64f12\data.o: ..\Libraries\startup\CoreSupport\core_cm4.h
+.\mk64f12\data.o: D:\_Software\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\mk64f12\data.o: ..\Libraries\startup\CoreSupport\core_cmInstr.h
+.\mk64f12\data.o: ..\Libraries\startup\CoreSupport\core_cmFunc.h
+.\mk64f12\data.o: ..\Libraries\startup\CoreSupport\core_cm4_simd.h
+.\mk64f12\data.o: D:\_Software\Keil\ARM\ARMCC\bin\..\include\string.h
+.\mk64f12\data.o: D:\_Software\Keil\ARM\ARMCC\bin\..\include\math.h

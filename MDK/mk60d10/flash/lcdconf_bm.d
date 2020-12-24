@@ -1,0 +1,11 @@
+.\mk60d10\flash\lcdconf_bm.o: ..\..\..\..\Libraries\utilities\emWin\Sample\Config\LCDConf_BM.c
+.\mk60d10\flash\lcdconf_bm.o: ..\..\..\..\Libraries\utilities\emWin\Include\GUI.h
+.\mk60d10\flash\lcdconf_bm.o: ..\..\..\..\Libraries\utilities\emWin\Include\GUI_ConfDefaults.h
+.\mk60d10\flash\lcdconf_bm.o: ..\..\..\..\Libraries\utilities\emWin\Include\GUIConf.h
+.\mk60d10\flash\lcdconf_bm.o: ..\..\..\..\Libraries\utilities\emWin\Include\GUI_Type.h
+.\mk60d10\flash\lcdconf_bm.o: ..\..\..\..\Libraries\utilities\emWin\Include\LCD.h
+.\mk60d10\flash\lcdconf_bm.o: ..\..\..\..\Libraries\utilities\emWin\Include\Global.h
+.\mk60d10\flash\lcdconf_bm.o: ..\..\..\..\Libraries\utilities\emWin\Include\GUI_Version.h
+.\mk60d10\flash\lcdconf_bm.o: ..\..\..\..\Libraries\utilities\emWin\Include\GUIDRV_FlexColor.h
+.\mk60d10\flash\lcdconf_bm.o: ..\..\..\..\Libraries\devices\inc\ili9320.h
+.\mk60d10\flash\lcdconf_bm.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdint.h

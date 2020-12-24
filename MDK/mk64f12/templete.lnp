@@ -1,0 +1,26 @@
+--cpu Cortex-M4.fp
+".\mk64f12\system_mk64f12.o"
+".\mk64f12\startup_mk64f12.o"
+".\mk64f12\main.o"
+".\mk64f12\data.o"
+".\mk64f12\read.o"
+".\mk64f12\ini.o"
+".\mk64f12\sw.o"
+".\mk64f12\tc.o"
+".\mk64f12\dcp.o"
+".\mk64f12\output.o"
+".\mk64f12\gpio.o"
+".\mk64f12\uart.o"
+".\mk64f12\wdog.o"
+".\mk64f12\adc.o"
+".\mk64f12\systick.o"
+".\mk64f12\common.o"
+"..\..\..\..\Libraries\drivers\K\src\dsp\lib\arm_cortexM4lf_math.lib"
+".\mk64f12\at24cxx.o"
+".\mk64f12\i2c.o"
+".\mk64f12\crc.o"
+".\mk64f12\pit.o"
+--strict --scatter ".\mk64f12\templete.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\templete.map" -o .\mk64f12\templete.axf

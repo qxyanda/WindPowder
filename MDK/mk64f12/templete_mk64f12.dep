@@ -1,0 +1,370 @@
+Dependencies for Project 'templete', Target 'mk64f12': (DO NOT MODIFY !)
+F (..\..\..\..\Libraries\startup\DeviceSupport\system_MK60D10.c)(0x57B2D252)()
+F (..\..\..\..\Libraries\startup\DeviceSupport\MDK-ARM\startup_MK60D10.s)(0x564C746D)()
+F (..\..\..\..\Libraries\startup\DeviceSupport\system_MK64F12.c)(0x5790720B)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\Libraries\startup\CoreSupport -I ..\Libraries\startup\DeviceSupport -I ..\Libraries\drivers\K\inc -I ..\Libraries\utilities\inc -I ..\Libraries\devices\inc -I ..\Libraries\utilities\emWin\Include --c99-I"E:\CH-K-Lib\Project\超核K60-K64开发板-基础例程\FF - 大同改造191031\MDK\RTE\_mk64f12"-IJ:\MDK-ARM\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0\Device\Include-IJ:\MDK-ARM\ARM\CMSIS\Include-IJ:\MDK-ARM\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0-D__UVISION_VERSION="522" -DMK64FX512xxx12 -DMK64F12 -DRAVEN -DDEBUG -D__FPU_PRESENT="1" -D__FPU_USED="1" -D__CC_ARM -DARM_MATH_CM4-o .\mk64f12\system_mk64f12.o --omf_browse .\mk64f12\system_mk64f12.crf --depend .\mk64f12\system_mk64f12.d)
+I (J:\MDK-ARM\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\..\..\Libraries\startup\DeviceSupport\MK64F12.h)(0x593FB728)
+I (..\Libraries\startup\CoreSupport\core_cm4.h)(0x57907237)
+I (..\Libraries\startup\CoreSupport\core_cmInstr.h)(0x578C2562)
+I (..\Libraries\startup\CoreSupport\core_cmFunc.h)(0x578C2562)
+I (..\Libraries\startup\CoreSupport\core_cm4_simd.h)(0x578C2562)
+I (..\..\..\..\Libraries\startup\DeviceSupport\system_MK64F12.h)(0x578C2561)
+F (..\..\..\..\Libraries\startup\DeviceSupport\MDK-ARM\startup_MK64F12.s)(0x564C746D)(--cpu Cortex-M4.fp -g --apcs=interwork -I"E:\CH-K-Lib\Project\超核K60-K64开发板-基础例程\FF - 大同改造191031\MDK\RTE\_mk64f12"-IJ:\MDK-ARM\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0\Device\Include-IJ:\MDK-ARM\ARM\CMSIS\Include-IJ:\MDK-ARM\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0--pd "__UVISION_VERSION SETA 522" --pd "MK64FX512xxx12 SETA 1"--list .\startup_mk64f12.lst --xref -o .\mk64f12\startup_mk64f12.o --depend .\mk64f12\startup_mk64f12.d)
+F (..\src\main.c)(0x5E79AAF9)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\Libraries\startup\CoreSupport -I ..\Libraries\startup\DeviceSupport -I ..\Libraries\drivers\K\inc -I ..\Libraries\utilities\inc -I ..\Libraries\devices\inc -I ..\Libraries\utilities\emWin\Include --c99-I"E:\CH-K-Lib\Project\超核K60-K64开发板-基础例程\FF - 大同改造191031\MDK\RTE\_mk64f12"-IJ:\MDK-ARM\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0\Device\Include-IJ:\MDK-ARM\ARM\CMSIS\Include-IJ:\MDK-ARM\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0-D__UVISION_VERSION="522" -DMK64FX512xxx12 -DMK64F12 -DRAVEN -DDEBUG -D__FPU_PRESENT="1" -D__FPU_USED="1" -D__CC_ARM -DARM_MATH_CM4-o .\mk64f12\main.o --omf_browse .\mk64f12\main.crf --depend .\mk64f12\main.d)
+I (..\Libraries\drivers\K\inc\ff.h)(0x5E79A5FC)
+I (..\Libraries\drivers\K\inc\adc.h)(0x578C2563)
+I (J:\MDK-ARM\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (J:\MDK-ARM\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (..\Libraries\drivers\K\inc\arm_math.h)(0x5D108FA3)
+I (..\Libraries\startup\CoreSupport\core_cm4.h)(0x57907237)
+I (..\Libraries\startup\CoreSupport\core_cmInstr.h)(0x578C2562)
+I (..\Libraries\startup\CoreSupport\core_cmFunc.h)(0x578C2562)
+I (..\Libraries\startup\CoreSupport\core_cm4_simd.h)(0x578C2562)
+I (J:\MDK-ARM\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (J:\MDK-ARM\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (..\Libraries\devices\inc\at24cxx.h)(0x564C746D)
+I (..\Libraries\drivers\K\inc\common.h)(0x578C2561)
+I (J:\MDK-ARM\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\Libraries\startup\DeviceSupport\MK64F12.h)(0x593FB728)
+I (..\Libraries\startup\DeviceSupport\system_MK64F12.h)(0x578C2561)
+I (..\Libraries\drivers\K\inc\crc.h)(0x578C2563)
+I (..\Libraries\drivers\K\inc\flexbus.h)(0x578C2563)
+I (..\Libraries\drivers\K\inc\gpio.h)(0x578C3E1A)
+I (..\Libraries\drivers\K\inc\gpio64.h)(0x578C2808)
+I (..\Libraries\drivers\K\inc\common64.h)(0x578DD0FC)
+I (..\Libraries\drivers\K\inc\i2c.h)(0x593E484D)
+I (..\Libraries\drivers\K\inc\includes64.h)(0x578C2808)
+I (..\Libraries\drivers\K\inc\light64.h)(0x578C2808)
+I (..\Libraries\devices\inc\IS61WV25616.h)(0x58AA5056)
+I (..\Libraries\drivers\K\inc\LQ12864.h)(0x578DD54E)
+I (..\Libraries\drivers\K\inc\pit.h)(0x578C2563)
+I (..\Libraries\drivers\K\inc\sd.h)(0x578C2562)
+I (J:\MDK-ARM\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (..\Libraries\drivers\K\inc\systick.h)(0x578C2562)
+I (..\Libraries\drivers\K\inc\uart.h)(0x5907D983)
+I (..\Libraries\drivers\K\inc\wdog.h)(0x578C2562)
+F (.\Data.c)(0x58B7C9F2)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\Libraries\startup\CoreSupport -I ..\Libraries\startup\DeviceSupport -I ..\Libraries\drivers\K\inc -I ..\Libraries\utilities\inc -I ..\Libraries\devices\inc -I ..\Libraries\utilities\emWin\Include --c99-I"E:\CH-K-Lib\Project\超核K60-K64开发板-基础例程\FF - 大同改造191031\MDK\RTE\_mk64f12"-IJ:\MDK-ARM\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0\Device\Include-IJ:\MDK-ARM\ARM\CMSIS\Include-IJ:\MDK-ARM\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0-D__UVISION_VERSION="522" -DMK64FX512xxx12 -DMK64F12 -DRAVEN -DDEBUG -D__FPU_PRESENT="1" -D__FPU_USED="1" -D__CC_ARM -DARM_MATH_CM4-o .\mk64f12\data.o --omf_browse .\mk64f12\data.crf --depend .\mk64f12\data.d)
+I (..\Libraries\drivers\K\inc\arm_math.h)(0x5D108FA3)
+I (..\Libraries\startup\CoreSupport\core_cm4.h)(0x57907237)
+I (J:\MDK-ARM\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\Libraries\startup\CoreSupport\core_cmInstr.h)(0x578C2562)
+I (..\Libraries\startup\CoreSupport\core_cmFunc.h)(0x578C2562)
+I (..\Libraries\startup\CoreSupport\core_cm4_simd.h)(0x578C2562)
+I (J:\MDK-ARM\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (J:\MDK-ARM\ARM\ARMCC\include\math.h)(0x57F606B6)
+F (.\Read.c)(0x5E780EF5)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\Libraries\startup\CoreSupport -I ..\Libraries\startup\DeviceSupport -I ..\Libraries\drivers\K\inc -I ..\Libraries\utilities\inc -I ..\Libraries\devices\inc -I ..\Libraries\utilities\emWin\Include --c99-I"E:\CH-K-Lib\Project\超核K60-K64开发板-基础例程\FF - 大同改造191031\MDK\RTE\_mk64f12"-IJ:\MDK-ARM\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0\Device\Include-IJ:\MDK-ARM\ARM\CMSIS\Include-IJ:\MDK-ARM\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0-D__UVISION_VERSION="522" -DMK64FX512xxx12 -DMK64F12 -DRAVEN -DDEBUG -D__FPU_PRESENT="1" -D__FPU_USED="1" -D__CC_ARM -DARM_MATH_CM4-o .\mk64f12\read.o --omf_browse .\mk64f12\read.crf --depend .\mk64f12\read.d)
+I (..\Libraries\drivers\K\inc\ff.h)(0x5E79A5FC)
+I (..\Libraries\drivers\K\inc\adc.h)(0x578C2563)
+I (J:\MDK-ARM\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (J:\MDK-ARM\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (..\Libraries\drivers\K\inc\arm_math.h)(0x5D108FA3)
+I (..\Libraries\startup\CoreSupport\core_cm4.h)(0x57907237)
+I (..\Libraries\startup\CoreSupport\core_cmInstr.h)(0x578C2562)
+I (..\Libraries\startup\CoreSupport\core_cmFunc.h)(0x578C2562)
+I (..\Libraries\startup\CoreSupport\core_cm4_simd.h)(0x578C2562)
+I (J:\MDK-ARM\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (J:\MDK-ARM\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (..\Libraries\devices\inc\at24cxx.h)(0x564C746D)
+I (..\Libraries\drivers\K\inc\common.h)(0x578C2561)
+I (J:\MDK-ARM\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\Libraries\startup\DeviceSupport\MK64F12.h)(0x593FB728)
+I (..\Libraries\startup\DeviceSupport\system_MK64F12.h)(0x578C2561)
+I (..\Libraries\drivers\K\inc\crc.h)(0x578C2563)
+I (..\Libraries\drivers\K\inc\flexbus.h)(0x578C2563)
+I (..\Libraries\drivers\K\inc\gpio.h)(0x578C3E1A)
+I (..\Libraries\drivers\K\inc\gpio64.h)(0x578C2808)
+I (..\Libraries\drivers\K\inc\common64.h)(0x578DD0FC)
+I (..\Libraries\drivers\K\inc\i2c.h)(0x593E484D)
+I (..\Libraries\drivers\K\inc\includes64.h)(0x578C2808)
+I (..\Libraries\drivers\K\inc\light64.h)(0x578C2808)
+I (..\Libraries\devices\inc\IS61WV25616.h)(0x58AA5056)
+I (..\Libraries\drivers\K\inc\LQ12864.h)(0x578DD54E)
+I (..\Libraries\drivers\K\inc\pit.h)(0x578C2563)
+I (..\Libraries\drivers\K\inc\sd.h)(0x578C2562)
+I (J:\MDK-ARM\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (..\Libraries\drivers\K\inc\systick.h)(0x578C2562)
+I (..\Libraries\drivers\K\inc\uart.h)(0x5907D983)
+I (..\Libraries\drivers\K\inc\wdog.h)(0x578C2562)
+F (..\src\ini.c)(0x5E79A5CE)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\Libraries\startup\CoreSupport -I ..\Libraries\startup\DeviceSupport -I ..\Libraries\drivers\K\inc -I ..\Libraries\utilities\inc -I ..\Libraries\devices\inc -I ..\Libraries\utilities\emWin\Include --c99-I"E:\CH-K-Lib\Project\超核K60-K64开发板-基础例程\FF - 大同改造191031\MDK\RTE\_mk64f12"-IJ:\MDK-ARM\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0\Device\Include-IJ:\MDK-ARM\ARM\CMSIS\Include-IJ:\MDK-ARM\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0-D__UVISION_VERSION="522" -DMK64FX512xxx12 -DMK64F12 -DRAVEN -DDEBUG -D__FPU_PRESENT="1" -D__FPU_USED="1" -D__CC_ARM -DARM_MATH_CM4-o .\mk64f12\ini.o --omf_browse .\mk64f12\ini.crf --depend .\mk64f12\ini.d)
+I (..\Libraries\drivers\K\inc\ff.h)(0x5E79A5FC)
+I (..\Libraries\drivers\K\inc\adc.h)(0x578C2563)
+I (J:\MDK-ARM\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (J:\MDK-ARM\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (..\Libraries\drivers\K\inc\arm_math.h)(0x5D108FA3)
+I (..\Libraries\startup\CoreSupport\core_cm4.h)(0x57907237)
+I (..\Libraries\startup\CoreSupport\core_cmInstr.h)(0x578C2562)
+I (..\Libraries\startup\CoreSupport\core_cmFunc.h)(0x578C2562)
+I (..\Libraries\startup\CoreSupport\core_cm4_simd.h)(0x578C2562)
+I (J:\MDK-ARM\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (J:\MDK-ARM\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (..\Libraries\devices\inc\at24cxx.h)(0x564C746D)
+I (..\Libraries\drivers\K\inc\common.h)(0x578C2561)
+I (J:\MDK-ARM\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\Libraries\startup\DeviceSupport\MK64F12.h)(0x593FB728)
+I (..\Libraries\startup\DeviceSupport\system_MK64F12.h)(0x578C2561)
+I (..\Libraries\drivers\K\inc\crc.h)(0x578C2563)
+I (..\Libraries\drivers\K\inc\flexbus.h)(0x578C2563)
+I (..\Libraries\drivers\K\inc\gpio.h)(0x578C3E1A)
+I (..\Libraries\drivers\K\inc\gpio64.h)(0x578C2808)
+I (..\Libraries\drivers\K\inc\common64.h)(0x578DD0FC)
+I (..\Libraries\drivers\K\inc\i2c.h)(0x593E484D)
+I (..\Libraries\drivers\K\inc\includes64.h)(0x578C2808)
+I (..\Libraries\drivers\K\inc\light64.h)(0x578C2808)
+I (..\Libraries\devices\inc\IS61WV25616.h)(0x58AA5056)
+I (..\Libraries\drivers\K\inc\LQ12864.h)(0x578DD54E)
+I (..\Libraries\drivers\K\inc\pit.h)(0x578C2563)
+I (..\Libraries\drivers\K\inc\sd.h)(0x578C2562)
+I (J:\MDK-ARM\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (..\Libraries\drivers\K\inc\systick.h)(0x578C2562)
+I (..\Libraries\drivers\K\inc\uart.h)(0x5907D983)
+I (..\Libraries\drivers\K\inc\wdog.h)(0x578C2562)
+F (..\src\sw.c)(0x5D11E76B)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\Libraries\startup\CoreSupport -I ..\Libraries\startup\DeviceSupport -I ..\Libraries\drivers\K\inc -I ..\Libraries\utilities\inc -I ..\Libraries\devices\inc -I ..\Libraries\utilities\emWin\Include --c99-I"E:\CH-K-Lib\Project\超核K60-K64开发板-基础例程\FF - 大同改造191031\MDK\RTE\_mk64f12"-IJ:\MDK-ARM\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0\Device\Include-IJ:\MDK-ARM\ARM\CMSIS\Include-IJ:\MDK-ARM\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0-D__UVISION_VERSION="522" -DMK64FX512xxx12 -DMK64F12 -DRAVEN -DDEBUG -D__FPU_PRESENT="1" -D__FPU_USED="1" -D__CC_ARM -DARM_MATH_CM4-o .\mk64f12\sw.o --omf_browse .\mk64f12\sw.crf --depend .\mk64f12\sw.d)
+I (..\Libraries\drivers\K\inc\ff.h)(0x5E79A5FC)
+I (..\Libraries\drivers\K\inc\adc.h)(0x578C2563)
+I (J:\MDK-ARM\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (J:\MDK-ARM\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (..\Libraries\drivers\K\inc\arm_math.h)(0x5D108FA3)
+I (..\Libraries\startup\CoreSupport\core_cm4.h)(0x57907237)
+I (..\Libraries\startup\CoreSupport\core_cmInstr.h)(0x578C2562)
+I (..\Libraries\startup\CoreSupport\core_cmFunc.h)(0x578C2562)
+I (..\Libraries\startup\CoreSupport\core_cm4_simd.h)(0x578C2562)
+I (J:\MDK-ARM\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (J:\MDK-ARM\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (..\Libraries\devices\inc\at24cxx.h)(0x564C746D)
+I (..\Libraries\drivers\K\inc\common.h)(0x578C2561)
+I (J:\MDK-ARM\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\Libraries\startup\DeviceSupport\MK64F12.h)(0x593FB728)
+I (..\Libraries\startup\DeviceSupport\system_MK64F12.h)(0x578C2561)
+I (..\Libraries\drivers\K\inc\crc.h)(0x578C2563)
+I (..\Libraries\drivers\K\inc\flexbus.h)(0x578C2563)
+I (..\Libraries\drivers\K\inc\gpio.h)(0x578C3E1A)
+I (..\Libraries\drivers\K\inc\gpio64.h)(0x578C2808)
+I (..\Libraries\drivers\K\inc\common64.h)(0x578DD0FC)
+I (..\Libraries\drivers\K\inc\i2c.h)(0x593E484D)
+I (..\Libraries\drivers\K\inc\includes64.h)(0x578C2808)
+I (..\Libraries\drivers\K\inc\light64.h)(0x578C2808)
+I (..\Libraries\devices\inc\IS61WV25616.h)(0x58AA5056)
+I (..\Libraries\drivers\K\inc\LQ12864.h)(0x578DD54E)
+I (..\Libraries\drivers\K\inc\pit.h)(0x578C2563)
+I (..\Libraries\drivers\K\inc\sd.h)(0x578C2562)
+I (J:\MDK-ARM\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (..\Libraries\drivers\K\inc\systick.h)(0x578C2562)
+I (..\Libraries\drivers\K\inc\uart.h)(0x5907D983)
+I (..\Libraries\drivers\K\inc\wdog.h)(0x578C2562)
+F (..\src\tc.c)(0x5D1090AC)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\Libraries\startup\CoreSupport -I ..\Libraries\startup\DeviceSupport -I ..\Libraries\drivers\K\inc -I ..\Libraries\utilities\inc -I ..\Libraries\devices\inc -I ..\Libraries\utilities\emWin\Include --c99-I"E:\CH-K-Lib\Project\超核K60-K64开发板-基础例程\FF - 大同改造191031\MDK\RTE\_mk64f12"-IJ:\MDK-ARM\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0\Device\Include-IJ:\MDK-ARM\ARM\CMSIS\Include-IJ:\MDK-ARM\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0-D__UVISION_VERSION="522" -DMK64FX512xxx12 -DMK64F12 -DRAVEN -DDEBUG -D__FPU_PRESENT="1" -D__FPU_USED="1" -D__CC_ARM -DARM_MATH_CM4-o .\mk64f12\tc.o --omf_browse .\mk64f12\tc.crf --depend .\mk64f12\tc.d)
+I (..\Libraries\drivers\K\inc\ff.h)(0x5E79A5FC)
+I (..\Libraries\drivers\K\inc\adc.h)(0x578C2563)
+I (J:\MDK-ARM\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (J:\MDK-ARM\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (..\Libraries\drivers\K\inc\arm_math.h)(0x5D108FA3)
+I (..\Libraries\startup\CoreSupport\core_cm4.h)(0x57907237)
+I (..\Libraries\startup\CoreSupport\core_cmInstr.h)(0x578C2562)
+I (..\Libraries\startup\CoreSupport\core_cmFunc.h)(0x578C2562)
+I (..\Libraries\startup\CoreSupport\core_cm4_simd.h)(0x578C2562)
+I (J:\MDK-ARM\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (J:\MDK-ARM\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (..\Libraries\devices\inc\at24cxx.h)(0x564C746D)
+I (..\Libraries\drivers\K\inc\common.h)(0x578C2561)
+I (J:\MDK-ARM\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\Libraries\startup\DeviceSupport\MK64F12.h)(0x593FB728)
+I (..\Libraries\startup\DeviceSupport\system_MK64F12.h)(0x578C2561)
+I (..\Libraries\drivers\K\inc\crc.h)(0x578C2563)
+I (..\Libraries\drivers\K\inc\flexbus.h)(0x578C2563)
+I (..\Libraries\drivers\K\inc\gpio.h)(0x578C3E1A)
+I (..\Libraries\drivers\K\inc\gpio64.h)(0x578C2808)
+I (..\Libraries\drivers\K\inc\common64.h)(0x578DD0FC)
+I (..\Libraries\drivers\K\inc\i2c.h)(0x593E484D)
+I (..\Libraries\drivers\K\inc\includes64.h)(0x578C2808)
+I (..\Libraries\drivers\K\inc\light64.h)(0x578C2808)
+I (..\Libraries\devices\inc\IS61WV25616.h)(0x58AA5056)
+I (..\Libraries\drivers\K\inc\LQ12864.h)(0x578DD54E)
+I (..\Libraries\drivers\K\inc\pit.h)(0x578C2563)
+I (..\Libraries\drivers\K\inc\sd.h)(0x578C2562)
+I (J:\MDK-ARM\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (..\Libraries\drivers\K\inc\systick.h)(0x578C2562)
+I (..\Libraries\drivers\K\inc\uart.h)(0x5907D983)
+I (..\Libraries\drivers\K\inc\wdog.h)(0x578C2562)
+F (..\src\dcp.c)(0x5D1090A3)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\Libraries\startup\CoreSupport -I ..\Libraries\startup\DeviceSupport -I ..\Libraries\drivers\K\inc -I ..\Libraries\utilities\inc -I ..\Libraries\devices\inc -I ..\Libraries\utilities\emWin\Include --c99-I"E:\CH-K-Lib\Project\超核K60-K64开发板-基础例程\FF - 大同改造191031\MDK\RTE\_mk64f12"-IJ:\MDK-ARM\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0\Device\Include-IJ:\MDK-ARM\ARM\CMSIS\Include-IJ:\MDK-ARM\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0-D__UVISION_VERSION="522" -DMK64FX512xxx12 -DMK64F12 -DRAVEN -DDEBUG -D__FPU_PRESENT="1" -D__FPU_USED="1" -D__CC_ARM -DARM_MATH_CM4-o .\mk64f12\dcp.o --omf_browse .\mk64f12\dcp.crf --depend .\mk64f12\dcp.d)
+I (..\Libraries\drivers\K\inc\ff.h)(0x5E79A5FC)
+I (..\Libraries\drivers\K\inc\adc.h)(0x578C2563)
+I (J:\MDK-ARM\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (J:\MDK-ARM\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (..\Libraries\drivers\K\inc\arm_math.h)(0x5D108FA3)
+I (..\Libraries\startup\CoreSupport\core_cm4.h)(0x57907237)
+I (..\Libraries\startup\CoreSupport\core_cmInstr.h)(0x578C2562)
+I (..\Libraries\startup\CoreSupport\core_cmFunc.h)(0x578C2562)
+I (..\Libraries\startup\CoreSupport\core_cm4_simd.h)(0x578C2562)
+I (J:\MDK-ARM\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (J:\MDK-ARM\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (..\Libraries\devices\inc\at24cxx.h)(0x564C746D)
+I (..\Libraries\drivers\K\inc\common.h)(0x578C2561)
+I (J:\MDK-ARM\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\Libraries\startup\DeviceSupport\MK64F12.h)(0x593FB728)
+I (..\Libraries\startup\DeviceSupport\system_MK64F12.h)(0x578C2561)
+I (..\Libraries\drivers\K\inc\crc.h)(0x578C2563)
+I (..\Libraries\drivers\K\inc\flexbus.h)(0x578C2563)
+I (..\Libraries\drivers\K\inc\gpio.h)(0x578C3E1A)
+I (..\Libraries\drivers\K\inc\gpio64.h)(0x578C2808)
+I (..\Libraries\drivers\K\inc\common64.h)(0x578DD0FC)
+I (..\Libraries\drivers\K\inc\i2c.h)(0x593E484D)
+I (..\Libraries\drivers\K\inc\includes64.h)(0x578C2808)
+I (..\Libraries\drivers\K\inc\light64.h)(0x578C2808)
+I (..\Libraries\devices\inc\IS61WV25616.h)(0x58AA5056)
+I (..\Libraries\drivers\K\inc\LQ12864.h)(0x578DD54E)
+I (..\Libraries\drivers\K\inc\pit.h)(0x578C2563)
+I (..\Libraries\drivers\K\inc\sd.h)(0x578C2562)
+I (J:\MDK-ARM\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (..\Libraries\drivers\K\inc\systick.h)(0x578C2562)
+I (..\Libraries\drivers\K\inc\uart.h)(0x5907D983)
+I (..\Libraries\drivers\K\inc\wdog.h)(0x578C2562)
+F (.\output.c)(0x5E787330)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\Libraries\startup\CoreSupport -I ..\Libraries\startup\DeviceSupport -I ..\Libraries\drivers\K\inc -I ..\Libraries\utilities\inc -I ..\Libraries\devices\inc -I ..\Libraries\utilities\emWin\Include --c99-I"E:\CH-K-Lib\Project\超核K60-K64开发板-基础例程\FF - 大同改造191031\MDK\RTE\_mk64f12"-IJ:\MDK-ARM\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0\Device\Include-IJ:\MDK-ARM\ARM\CMSIS\Include-IJ:\MDK-ARM\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0-D__UVISION_VERSION="522" -DMK64FX512xxx12 -DMK64F12 -DRAVEN -DDEBUG -D__FPU_PRESENT="1" -D__FPU_USED="1" -D__CC_ARM -DARM_MATH_CM4-o .\mk64f12\output.o --omf_browse .\mk64f12\output.crf --depend .\mk64f12\output.d)
+I (..\Libraries\drivers\K\inc\ff.h)(0x5E79A5FC)
+I (..\Libraries\drivers\K\inc\adc.h)(0x578C2563)
+I (J:\MDK-ARM\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (J:\MDK-ARM\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (..\Libraries\drivers\K\inc\arm_math.h)(0x5D108FA3)
+I (..\Libraries\startup\CoreSupport\core_cm4.h)(0x57907237)
+I (..\Libraries\startup\CoreSupport\core_cmInstr.h)(0x578C2562)
+I (..\Libraries\startup\CoreSupport\core_cmFunc.h)(0x578C2562)
+I (..\Libraries\startup\CoreSupport\core_cm4_simd.h)(0x578C2562)
+I (J:\MDK-ARM\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (J:\MDK-ARM\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (..\Libraries\devices\inc\at24cxx.h)(0x564C746D)
+I (..\Libraries\drivers\K\inc\common.h)(0x578C2561)
+I (J:\MDK-ARM\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\Libraries\startup\DeviceSupport\MK64F12.h)(0x593FB728)
+I (..\Libraries\startup\DeviceSupport\system_MK64F12.h)(0x578C2561)
+I (..\Libraries\drivers\K\inc\crc.h)(0x578C2563)
+I (..\Libraries\drivers\K\inc\flexbus.h)(0x578C2563)
+I (..\Libraries\drivers\K\inc\gpio.h)(0x578C3E1A)
+I (..\Libraries\drivers\K\inc\gpio64.h)(0x578C2808)
+I (..\Libraries\drivers\K\inc\common64.h)(0x578DD0FC)
+I (..\Libraries\drivers\K\inc\i2c.h)(0x593E484D)
+I (..\Libraries\drivers\K\inc\includes64.h)(0x578C2808)
+I (..\Libraries\drivers\K\inc\light64.h)(0x578C2808)
+I (..\Libraries\devices\inc\IS61WV25616.h)(0x58AA5056)
+I (..\Libraries\drivers\K\inc\LQ12864.h)(0x578DD54E)
+I (..\Libraries\drivers\K\inc\pit.h)(0x578C2563)
+I (..\Libraries\drivers\K\inc\sd.h)(0x578C2562)
+I (J:\MDK-ARM\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (..\Libraries\drivers\K\inc\systick.h)(0x578C2562)
+I (..\Libraries\drivers\K\inc\uart.h)(0x5907D983)
+I (..\Libraries\drivers\K\inc\wdog.h)(0x578C2562)
+F (..\..\..\..\Libraries\drivers\K\src\gpio.c)(0x578C3E1B)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\Libraries\startup\CoreSupport -I ..\Libraries\startup\DeviceSupport -I ..\Libraries\drivers\K\inc -I ..\Libraries\utilities\inc -I ..\Libraries\devices\inc -I ..\Libraries\utilities\emWin\Include --c99-I"E:\CH-K-Lib\Project\超核K60-K64开发板-基础例程\FF - 大同改造191031\MDK\RTE\_mk64f12"-IJ:\MDK-ARM\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0\Device\Include-IJ:\MDK-ARM\ARM\CMSIS\Include-IJ:\MDK-ARM\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0-D__UVISION_VERSION="522" -DMK64FX512xxx12 -DMK64F12 -DRAVEN -DDEBUG -D__FPU_PRESENT="1" -D__FPU_USED="1" -D__CC_ARM -DARM_MATH_CM4-o .\mk64f12\gpio.o --omf_browse .\mk64f12\gpio.crf --depend .\mk64f12\gpio.d)
+I (..\Libraries\drivers\K\inc\common.h)(0x578C2561)
+I (J:\MDK-ARM\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (J:\MDK-ARM\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (J:\MDK-ARM\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\Libraries\startup\DeviceSupport\MK64F12.h)(0x593FB728)
+I (..\Libraries\startup\CoreSupport\core_cm4.h)(0x57907237)
+I (..\Libraries\startup\CoreSupport\core_cmInstr.h)(0x578C2562)
+I (..\Libraries\startup\CoreSupport\core_cmFunc.h)(0x578C2562)
+I (..\Libraries\startup\CoreSupport\core_cm4_simd.h)(0x578C2562)
+I (..\Libraries\startup\DeviceSupport\system_MK64F12.h)(0x578C2561)
+I (..\Libraries\drivers\K\inc\gpio.h)(0x578C3E1A)
+F (..\..\..\..\Libraries\drivers\K\src\uart.c)(0x578C2561)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\Libraries\startup\CoreSupport -I ..\Libraries\startup\DeviceSupport -I ..\Libraries\drivers\K\inc -I ..\Libraries\utilities\inc -I ..\Libraries\devices\inc -I ..\Libraries\utilities\emWin\Include --c99-I"E:\CH-K-Lib\Project\超核K60-K64开发板-基础例程\FF - 大同改造191031\MDK\RTE\_mk64f12"-IJ:\MDK-ARM\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0\Device\Include-IJ:\MDK-ARM\ARM\CMSIS\Include-IJ:\MDK-ARM\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0-D__UVISION_VERSION="522" -DMK64FX512xxx12 -DMK64F12 -DRAVEN -DDEBUG -D__FPU_PRESENT="1" -D__FPU_USED="1" -D__CC_ARM -DARM_MATH_CM4-o .\mk64f12\uart.o --omf_browse .\mk64f12\uart.crf --depend .\mk64f12\uart.d)
+I (..\Libraries\drivers\K\inc\common.h)(0x578C2561)
+I (J:\MDK-ARM\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (J:\MDK-ARM\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (J:\MDK-ARM\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\Libraries\startup\DeviceSupport\MK64F12.h)(0x593FB728)
+I (..\Libraries\startup\CoreSupport\core_cm4.h)(0x57907237)
+I (..\Libraries\startup\CoreSupport\core_cmInstr.h)(0x578C2562)
+I (..\Libraries\startup\CoreSupport\core_cmFunc.h)(0x578C2562)
+I (..\Libraries\startup\CoreSupport\core_cm4_simd.h)(0x578C2562)
+I (..\Libraries\startup\DeviceSupport\system_MK64F12.h)(0x578C2561)
+I (..\Libraries\drivers\K\inc\uart.h)(0x5907D983)
+I (J:\MDK-ARM\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (..\Libraries\drivers\K\inc\gpio.h)(0x578C3E1A)
+F (..\..\..\..\Libraries\drivers\K\src\wdog.c)(0x578C2562)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\Libraries\startup\CoreSupport -I ..\Libraries\startup\DeviceSupport -I ..\Libraries\drivers\K\inc -I ..\Libraries\utilities\inc -I ..\Libraries\devices\inc -I ..\Libraries\utilities\emWin\Include --c99-I"E:\CH-K-Lib\Project\超核K60-K64开发板-基础例程\FF - 大同改造191031\MDK\RTE\_mk64f12"-IJ:\MDK-ARM\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0\Device\Include-IJ:\MDK-ARM\ARM\CMSIS\Include-IJ:\MDK-ARM\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0-D__UVISION_VERSION="522" -DMK64FX512xxx12 -DMK64F12 -DRAVEN -DDEBUG -D__FPU_PRESENT="1" -D__FPU_USED="1" -D__CC_ARM -DARM_MATH_CM4-o .\mk64f12\wdog.o --omf_browse .\mk64f12\wdog.crf --depend .\mk64f12\wdog.d)
+I (..\Libraries\drivers\K\inc\wdog.h)(0x578C2562)
+I (..\Libraries\drivers\K\inc\common.h)(0x578C2561)
+I (J:\MDK-ARM\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (J:\MDK-ARM\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (J:\MDK-ARM\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\Libraries\startup\DeviceSupport\MK64F12.h)(0x593FB728)
+I (..\Libraries\startup\CoreSupport\core_cm4.h)(0x57907237)
+I (..\Libraries\startup\CoreSupport\core_cmInstr.h)(0x578C2562)
+I (..\Libraries\startup\CoreSupport\core_cmFunc.h)(0x578C2562)
+I (..\Libraries\startup\CoreSupport\core_cm4_simd.h)(0x578C2562)
+I (..\Libraries\startup\DeviceSupport\system_MK64F12.h)(0x578C2561)
+F (..\..\..\..\Libraries\drivers\K\src\adc.c)(0x58A50912)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\Libraries\startup\CoreSupport -I ..\Libraries\startup\DeviceSupport -I ..\Libraries\drivers\K\inc -I ..\Libraries\utilities\inc -I ..\Libraries\devices\inc -I ..\Libraries\utilities\emWin\Include --c99-I"E:\CH-K-Lib\Project\超核K60-K64开发板-基础例程\FF - 大同改造191031\MDK\RTE\_mk64f12"-IJ:\MDK-ARM\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0\Device\Include-IJ:\MDK-ARM\ARM\CMSIS\Include-IJ:\MDK-ARM\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0-D__UVISION_VERSION="522" -DMK64FX512xxx12 -DMK64F12 -DRAVEN -DDEBUG -D__FPU_PRESENT="1" -D__FPU_USED="1" -D__CC_ARM -DARM_MATH_CM4-o .\mk64f12\adc.o --omf_browse .\mk64f12\adc.crf --depend .\mk64f12\adc.d)
+I (..\Libraries\drivers\K\inc\common.h)(0x578C2561)
+I (J:\MDK-ARM\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (J:\MDK-ARM\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (J:\MDK-ARM\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\Libraries\startup\DeviceSupport\MK64F12.h)(0x593FB728)
+I (..\Libraries\startup\CoreSupport\core_cm4.h)(0x57907237)
+I (..\Libraries\startup\CoreSupport\core_cmInstr.h)(0x578C2562)
+I (..\Libraries\startup\CoreSupport\core_cmFunc.h)(0x578C2562)
+I (..\Libraries\startup\CoreSupport\core_cm4_simd.h)(0x578C2562)
+I (..\Libraries\startup\DeviceSupport\system_MK64F12.h)(0x578C2561)
+I (..\Libraries\drivers\K\inc\adc.h)(0x578C2563)
+I (..\Libraries\drivers\K\inc\gpio.h)(0x578C3E1A)
+F (..\..\..\..\Libraries\drivers\K\src\systick.c)(0x578C2562)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\Libraries\startup\CoreSupport -I ..\Libraries\startup\DeviceSupport -I ..\Libraries\drivers\K\inc -I ..\Libraries\utilities\inc -I ..\Libraries\devices\inc -I ..\Libraries\utilities\emWin\Include --c99-I"E:\CH-K-Lib\Project\超核K60-K64开发板-基础例程\FF - 大同改造191031\MDK\RTE\_mk64f12"-IJ:\MDK-ARM\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0\Device\Include-IJ:\MDK-ARM\ARM\CMSIS\Include-IJ:\MDK-ARM\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0-D__UVISION_VERSION="522" -DMK64FX512xxx12 -DMK64F12 -DRAVEN -DDEBUG -D__FPU_PRESENT="1" -D__FPU_USED="1" -D__CC_ARM -DARM_MATH_CM4-o .\mk64f12\systick.o --omf_browse .\mk64f12\systick.crf --depend .\mk64f12\systick.d)
+I (..\Libraries\drivers\K\inc\systick.h)(0x578C2562)
+I (J:\MDK-ARM\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (J:\MDK-ARM\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (..\Libraries\drivers\K\inc\common.h)(0x578C2561)
+I (J:\MDK-ARM\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\Libraries\startup\DeviceSupport\MK64F12.h)(0x593FB728)
+I (..\Libraries\startup\CoreSupport\core_cm4.h)(0x57907237)
+I (..\Libraries\startup\CoreSupport\core_cmInstr.h)(0x578C2562)
+I (..\Libraries\startup\CoreSupport\core_cmFunc.h)(0x578C2562)
+I (..\Libraries\startup\CoreSupport\core_cm4_simd.h)(0x578C2562)
+I (..\Libraries\startup\DeviceSupport\system_MK64F12.h)(0x578C2561)
+F (..\..\..\..\Libraries\drivers\K\src\common.c)(0x578C2562)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\Libraries\startup\CoreSupport -I ..\Libraries\startup\DeviceSupport -I ..\Libraries\drivers\K\inc -I ..\Libraries\utilities\inc -I ..\Libraries\devices\inc -I ..\Libraries\utilities\emWin\Include --c99-I"E:\CH-K-Lib\Project\超核K60-K64开发板-基础例程\FF - 大同改造191031\MDK\RTE\_mk64f12"-IJ:\MDK-ARM\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0\Device\Include-IJ:\MDK-ARM\ARM\CMSIS\Include-IJ:\MDK-ARM\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0-D__UVISION_VERSION="522" -DMK64FX512xxx12 -DMK64F12 -DRAVEN -DDEBUG -D__FPU_PRESENT="1" -D__FPU_USED="1" -D__CC_ARM -DARM_MATH_CM4-o .\mk64f12\common.o --omf_browse .\mk64f12\common.crf --depend .\mk64f12\common.d)
+I (..\Libraries\drivers\K\inc\common.h)(0x578C2561)
+I (J:\MDK-ARM\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (J:\MDK-ARM\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (J:\MDK-ARM\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\Libraries\startup\DeviceSupport\MK64F12.h)(0x593FB728)
+I (..\Libraries\startup\CoreSupport\core_cm4.h)(0x57907237)
+I (..\Libraries\startup\CoreSupport\core_cmInstr.h)(0x578C2562)
+I (..\Libraries\startup\CoreSupport\core_cmFunc.h)(0x578C2562)
+I (..\Libraries\startup\CoreSupport\core_cm4_simd.h)(0x578C2562)
+I (..\Libraries\startup\DeviceSupport\system_MK64F12.h)(0x578C2561)
+I (J:\MDK-ARM\ARM\ARMCC\include\string.h)(0x57F606B8)
+F (..\..\..\..\Libraries\drivers\K\src\dsp\lib\arm_cortexM4lf_math.lib)(0x564C746D)()
+F (..\..\..\..\Libraries\devices\src\at24cxx.c)(0x5D11E963)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\Libraries\startup\CoreSupport -I ..\Libraries\startup\DeviceSupport -I ..\Libraries\drivers\K\inc -I ..\Libraries\utilities\inc -I ..\Libraries\devices\inc -I ..\Libraries\utilities\emWin\Include --c99-I"E:\CH-K-Lib\Project\超核K60-K64开发板-基础例程\FF - 大同改造191031\MDK\RTE\_mk64f12"-IJ:\MDK-ARM\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0\Device\Include-IJ:\MDK-ARM\ARM\CMSIS\Include-IJ:\MDK-ARM\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0-D__UVISION_VERSION="522" -DMK64FX512xxx12 -DMK64F12 -DRAVEN -DDEBUG -D__FPU_PRESENT="1" -D__FPU_USED="1" -D__CC_ARM -DARM_MATH_CM4-o .\mk64f12\at24cxx.o --omf_browse .\mk64f12\at24cxx.crf --depend .\mk64f12\at24cxx.d)
+I (J:\MDK-ARM\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (..\Libraries\devices\inc\at24cxx.h)(0x564C746D)
+I (J:\MDK-ARM\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\Libraries\drivers\K\inc\i2c.h)(0x593E484D)
+F (..\..\..\..\Libraries\drivers\K\src\i2c.c)(0x593F48DD)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\Libraries\startup\CoreSupport -I ..\Libraries\startup\DeviceSupport -I ..\Libraries\drivers\K\inc -I ..\Libraries\utilities\inc -I ..\Libraries\devices\inc -I ..\Libraries\utilities\emWin\Include --c99-I"E:\CH-K-Lib\Project\超核K60-K64开发板-基础例程\FF - 大同改造191031\MDK\RTE\_mk64f12"-IJ:\MDK-ARM\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0\Device\Include-IJ:\MDK-ARM\ARM\CMSIS\Include-IJ:\MDK-ARM\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0-D__UVISION_VERSION="522" -DMK64FX512xxx12 -DMK64F12 -DRAVEN -DDEBUG -D__FPU_PRESENT="1" -D__FPU_USED="1" -D__CC_ARM -DARM_MATH_CM4-o .\mk64f12\i2c.o --omf_browse .\mk64f12\i2c.crf --depend .\mk64f12\i2c.d)
+I (..\Libraries\drivers\K\inc\common.h)(0x578C2561)
+I (J:\MDK-ARM\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (J:\MDK-ARM\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (J:\MDK-ARM\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\Libraries\startup\DeviceSupport\MK64F12.h)(0x593FB728)
+I (..\Libraries\startup\CoreSupport\core_cm4.h)(0x57907237)
+I (..\Libraries\startup\CoreSupport\core_cmInstr.h)(0x578C2562)
+I (..\Libraries\startup\CoreSupport\core_cmFunc.h)(0x578C2562)
+I (..\Libraries\startup\CoreSupport\core_cm4_simd.h)(0x578C2562)
+I (..\Libraries\startup\DeviceSupport\system_MK64F12.h)(0x578C2561)
+I (..\Libraries\drivers\K\inc\i2c.h)(0x593E484D)
+I (..\Libraries\drivers\K\inc\gpio.h)(0x578C3E1A)
+F (..\src\crc.c)(0x5BE4E991)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\Libraries\startup\CoreSupport -I ..\Libraries\startup\DeviceSupport -I ..\Libraries\drivers\K\inc -I ..\Libraries\utilities\inc -I ..\Libraries\devices\inc -I ..\Libraries\utilities\emWin\Include --c99-I"E:\CH-K-Lib\Project\超核K60-K64开发板-基础例程\FF - 大同改造191031\MDK\RTE\_mk64f12"-IJ:\MDK-ARM\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0\Device\Include-IJ:\MDK-ARM\ARM\CMSIS\Include-IJ:\MDK-ARM\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0-D__UVISION_VERSION="522" -DMK64FX512xxx12 -DMK64F12 -DRAVEN -DDEBUG -D__FPU_PRESENT="1" -D__FPU_USED="1" -D__CC_ARM -DARM_MATH_CM4-o .\mk64f12\crc.o --omf_browse .\mk64f12\crc.crf --depend .\mk64f12\crc.d)
+I (..\Libraries\drivers\K\inc\crc.h)(0x578C2563)
+I (J:\MDK-ARM\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (J:\MDK-ARM\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (..\Libraries\drivers\K\inc\common.h)(0x578C2561)
+I (J:\MDK-ARM\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\Libraries\startup\DeviceSupport\MK64F12.h)(0x593FB728)
+I (..\Libraries\startup\CoreSupport\core_cm4.h)(0x57907237)
+I (..\Libraries\startup\CoreSupport\core_cmInstr.h)(0x578C2562)
+I (..\Libraries\startup\CoreSupport\core_cmFunc.h)(0x578C2562)
+I (..\Libraries\startup\CoreSupport\core_cm4_simd.h)(0x578C2562)
+I (..\Libraries\startup\DeviceSupport\system_MK64F12.h)(0x578C2561)
+F (..\..\..\..\Libraries\drivers\K\src\pit.c)(0x578C2562)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\Libraries\startup\CoreSupport -I ..\Libraries\startup\DeviceSupport -I ..\Libraries\drivers\K\inc -I ..\Libraries\utilities\inc -I ..\Libraries\devices\inc -I ..\Libraries\utilities\emWin\Include --c99-I"E:\CH-K-Lib\Project\超核K60-K64开发板-基础例程\FF - 大同改造191031\MDK\RTE\_mk64f12"-IJ:\MDK-ARM\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0\Device\Include-IJ:\MDK-ARM\ARM\CMSIS\Include-IJ:\MDK-ARM\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0-D__UVISION_VERSION="522" -DMK64FX512xxx12 -DMK64F12 -DRAVEN -DDEBUG -D__FPU_PRESENT="1" -D__FPU_USED="1" -D__CC_ARM -DARM_MATH_CM4-o .\mk64f12\pit.o --omf_browse .\mk64f12\pit.crf --depend .\mk64f12\pit.d)
+I (..\Libraries\drivers\K\inc\pit.h)(0x578C2563)
+I (..\Libraries\drivers\K\inc\common.h)(0x578C2561)
+I (J:\MDK-ARM\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (J:\MDK-ARM\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (J:\MDK-ARM\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\Libraries\startup\DeviceSupport\MK64F12.h)(0x593FB728)
+I (..\Libraries\startup\CoreSupport\core_cm4.h)(0x57907237)
+I (..\Libraries\startup\CoreSupport\core_cmInstr.h)(0x578C2562)
+I (..\Libraries\startup\CoreSupport\core_cmFunc.h)(0x578C2562)
+I (..\Libraries\startup\CoreSupport\core_cm4_simd.h)(0x578C2562)
+I (..\Libraries\startup\DeviceSupport\system_MK64F12.h)(0x578C2561)

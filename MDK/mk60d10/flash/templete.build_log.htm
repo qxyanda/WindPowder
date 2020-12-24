@@ -1,0 +1,153 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.20.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Y D, YD, LIC=TA3Y8-316TI-77ARP-MZV12-MB3K1-LYEPF
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.20
+Toolchain Path:  D:\Keil\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 2 (build 183)
+Assembler:       Armasm.exe V5.06 update 2 (build 183)
+Linker/Locator:  ArmLink.exe V5.06 update 2 (build 183)
+Library Manager: ArmAr.exe V5.06 update 2 (build 183)
+Hex Converter:   FromElf.exe V5.06 update 2 (build 183)
+CPU DLL:         SARMCM3.DLL V5.20
+Dialog DLL:      DCM.DLL V1.13.7.0
+Target DLL:      Segger\JL2CM3.dll V2.99.20.0
+Dialog DLL:      TCM.DLL V1.14.9.0
+ 
+<h2>Project:</h2>
+F:\CH-K-Lib\Project\超核K60-K64开发板-基础例程\静电\MDK\templete.uvprojx
+Project File Date:  07/25/2016
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 2 (build 183)', folder: 'D:\Keil\ARM\ARMCC\Bin'
+Build target 'mk60d10'
+compiling system_MK60D10.c...
+..\..\..\..\Libraries\startup\CoreSupport\core_cm4.h(122): warning:  #47-D: incompatible redefinition of macro "__FPU_USED"
+      #define __FPU_USED         0
+..\..\..\..\Libraries\startup\DeviceSupport\system_MK60D10.c: 1 warning, 0 errors
+compiling main.c...
+..\..\..\..\Libraries\startup\CoreSupport\core_cm4.h(122): warning:  #47-D: incompatible redefinition of macro "__FPU_USED"
+      #define __FPU_USED         0
+..\..\..\..\Libraries\startup\DeviceSupport\MK64F12.h(76): warning:  #47-D: incompatible redefinition of macro "MCU_MEM_MAP_VERSION" (declared at line 60 of "..\..\..\..\Libraries\startup\DeviceSupport\MK60D10.h")
+  #define MCU_MEM_MAP_VERSION 0x0200u
+..\..\..\..\Libraries\startup\DeviceSupport\MK64F12.h(98): warning:  #47-D: incompatible redefinition of macro "BITBAND_REG" (declared at line 71 of "..\..\..\..\Libraries\startup\DeviceSupport\MK60D10.h")
+  #define BITBAND_REG(Reg,Bit) (BITBAND_REG32(Reg,Bit))
+..\..\..\..\Libraries\startup\DeviceSupport\MK64F12.h(128): error:  #2571: invalid redefinition of enum "IRQn" (declared at line 83 of "..\..\..\..\Libraries\startup\DeviceSupport\MK60D10.h")
+  typedef enum IRQn {
+..\..\..\..\Libraries\startup\DeviceSupport\MK64F12.h(130): error:  #101: "NonMaskableInt_IRQn" has already been declared in the current scope
+    NonMaskableInt_IRQn          = -14,              /**< Non Maskable Interrupt */
+..\..\..\..\Libraries\startup\DeviceSupport\MK64F12.h(131): error:  #101: "HardFault_IRQn" has already been declared in the current scope
+    HardFault_IRQn               = -13,              /**< Cortex-M4 SV Hard Fault Interrupt */
+..\..\..\..\Libraries\startup\DeviceSupport\MK64F12.h(132): error:  #101: "MemoryManagement_IRQn" has already been declared in the current scope
+    MemoryManagement_IRQn        = -12,              /**< Cortex-M4 Memory Management Interrupt */
+..\..\..\..\Libraries\startup\DeviceSupport\MK64F12.h(133): error:  #101: "BusFault_IRQn" has already been declared in the current scope
+    BusFault_IRQn                = -11,              /**< Cortex-M4 Bus Fault Interrupt */
+..\..\..\..\Libraries\startup\DeviceSupport\MK64F12.h(134): error:  #101: "UsageFault_IRQn" has already been declared in the current scope
+    UsageFault_IRQn              = -10,              /**< Cortex-M4 Usage Fault Interrupt */
+..\..\..\..\Libraries\startup\DeviceSupport\MK64F12.h(135): error:  #101: "SVCall_IRQn" has already been declared in the current scope
+    SVCall_IRQn                  = -5,               /**< Cortex-M4 SV Call Interrupt */
+..\..\..\..\Libraries\startup\DeviceSupport\MK64F12.h(136): error:  #101: "DebugMonitor_IRQn" has already been declared in the current scope
+    DebugMonitor_IRQn            = -4,               /**< Cortex-M4 Debug Monitor Interrupt */
+..\..\..\..\Libraries\startup\DeviceSupport\MK64F12.h(137): error:  #101: "PendSV_IRQn" has already been declared in the current scope
+    PendSV_IRQn                  = -2,               /**< Cortex-M4 Pend SV Interrupt */
+..\..\..\..\Libraries\startup\DeviceSupport\MK64F12.h(138): error:  #101: "SysTick_IRQn" has already been declared in the current scope
+    SysTick_IRQn                 = -1,               /**< Cortex-M4 System Tick Interrupt */
+..\..\..\..\Libraries\startup\DeviceSupport\MK64F12.h(141): error:  #101: "DMA0_IRQn" has already been declared in the current scope
+    DMA0_IRQn                    = 0,                /**< DMA Channel 0 Transfer Complete */
+..\..\..\..\Libraries\startup\DeviceSupport\MK64F12.h(142): error:  #101: "DMA1_IRQn" has already been declared in the current scope
+    DMA1_IRQn                    = 1,                /**< DMA Channel 1 Transfer Complete */
+..\..\..\..\Libraries\startup\DeviceSupport\MK64F12.h(143): error:  #101: "DMA2_IRQn" has already been declared in the current scope
+    DMA2_IRQn                    = 2,                /**< DMA Channel 2 Transfer Complete */
+..\..\..\..\Libraries\startup\DeviceSupport\MK64F12.h(144): error:  #101: "DMA3_IRQn" has already been declared in the current scope
+    DMA3_IRQn                    = 3,                /**< DMA Channel 3 Transfer Complete */
+..\..\..\..\Libraries\startup\DeviceSupport\MK64F12.h(145): error:  #101: "DMA4_IRQn" has already been declared in the current scope
+    DMA4_IRQn                    = 4,                /**< DMA Channel 4 Transfer Complete */
+..\..\..\..\Libraries\startup\DeviceSupport\MK64F12.h(146): error:  #101: "DMA5_IRQn" has already been declared in the current scope
+    DMA5_IRQn                    = 5,                /**< DMA Channel 5 Transfer Complete */
+..\..\..\..\Libraries\startup\DeviceSupport\MK64F12.h(147): error:  #101: "DMA6_IRQn" has already been declared in the current scope
+    DMA6_IRQn                    = 6,                /**< DMA Channel 6 Transfer Complete */
+..\..\..\..\Libraries\startup\DeviceSupport\MK64F12.h(148): error:  #101: "DMA7_IRQn" has already been declared in the current scope
+    DMA7_IRQn                    = 7,                /**< DMA Channel 7 Transfer Complete */
+..\..\..\..\Libraries\startup\DeviceSupport\MK64F12.h(149): error:  #101: "DMA8_IRQn" has already been declared in the current scope
+    DMA8_IRQn                    = 8,                /**< DMA Channel 8 Transfer Complete */
+..\..\..\..\Libraries\startup\DeviceSupport\MK64F12.h(150): error:  #101: "DMA9_IRQn" has already been declared in the current scope
+    DMA9_IRQn                    = 9,                /**< DMA Channel 9 Transfer Complete */
+..\..\..\..\Libraries\startup\DeviceSupport\MK64F12.h(151): error:  #101: "DMA10_IRQn" has already been declared in the current scope
+    DMA10_IRQn                   = 10,               /**< DMA Channel 10 Transfer Complete */
+..\..\..\..\Libraries\startup\DeviceSupport\MK64F12.h(152): error:  #101: "DMA11_IRQn" has already been declared in the current scope
+    DMA11_IRQn                   = 11,               /**< DMA Channel 11 Transfer Complete */
+..\..\..\..\Libraries\startup\DeviceSupport\MK64F12.h(153): error:  #101: "DMA12_IRQn" has already been declared in the current scope
+    DMA12_IRQn                   = 12,               /**< DMA Channel 12 Transfer Complete */
+..\..\..\..\Libraries\startup\DeviceSupport\MK64F12.h(154): error:  #101: "DMA13_IRQn" has already been declared in the current scope
+    DMA13_IRQn                   = 13,               /**< DMA Channel 13 Transfer Complete */
+..\..\..\..\Libraries\startup\DeviceSupport\MK64F12.h(155): error:  #101: "DMA14_IRQn" has already been declared in the current scope
+    DMA14_IRQn                   = 14,               /**< DMA Channel 14 Transfer Complete */
+..\..\..\..\Libraries\startup\DeviceSupport\MK64F12.h(156): error:  #101: "DMA15_IRQn" has already been declared in the current scope
+    DMA15_IRQn                   = 15,               /**< DMA Channel 15 Transfer Complete */
+..\..\..\..\Libraries\startup\DeviceSupport\MK64F12.h(157): error:  #101: "DMA_Error_IRQn" has already been declared in the current scope
+    DMA_Error_IRQn               = 16,               /**< DMA Error Interrupt */
+..\..\..\..\Libraries\startup\DeviceSupport\MK64F12.h(158): error:  #101: "MCM_IRQn" has already been declared in the current scope
+    MCM_IRQn                     = 17,               /**< Normal Interrupt */
+..\..\..\..\Libraries\startup\DeviceSupport\MK64F12.h(160): error:  #101: "Read_Collision_IRQn" has already been declared in the current scope
+    Read_Collision_IRQn          = 19,               /**< Read Collision Interrupt */
+..\..\..\..\Libraries\startup\DeviceSupport\MK64F12.h(161): error:  #101: "LVD_LVW_IRQn" has already been declared in the current scope
+    LVD_LVW_IRQn                 = 20,               /**< Low Voltage Detect, Low Voltage Warning */
+..\src\main.c: 3 warnings, 30 errors
+compiling gpio.c...
+..\..\..\..\Libraries\startup\CoreSupport\core_cm4.h(122): warning:  #47-D: incompatible redefinition of macro "__FPU_USED"
+      #define __FPU_USED         0
+..\..\..\..\Libraries\drivers\K\src\gpio.c: 1 warning, 0 errors
+compiling uart.c...
+..\..\..\..\Libraries\startup\CoreSupport\core_cm4.h(122): warning:  #47-D: incompatible redefinition of macro "__FPU_USED"
+      #define __FPU_USED         0
+..\..\..\..\Libraries\drivers\K\src\uart.c: 1 warning, 0 errors
+compiling wdog.c...
+..\..\..\..\Libraries\startup\CoreSupport\core_cm4.h(122): warning:  #47-D: incompatible redefinition of macro "__FPU_USED"
+      #define __FPU_USED         0
+..\..\..\..\Libraries\drivers\K\src\wdog.c: 1 warning, 0 errors
+compiling pit.c...
+..\..\..\..\Libraries\startup\CoreSupport\core_cm4.h(122): warning:  #47-D: incompatible redefinition of macro "__FPU_USED"
+      #define __FPU_USED         0
+..\..\..\..\Libraries\drivers\K\src\pit.c: 1 warning, 0 errors
+compiling adc.c...
+..\..\..\..\Libraries\startup\CoreSupport\core_cm4.h(122): warning:  #47-D: incompatible redefinition of macro "__FPU_USED"
+      #define __FPU_USED         0
+..\..\..\..\Libraries\drivers\K\src\adc.c: 1 warning, 0 errors
+compiling systick.c...
+..\..\..\..\Libraries\startup\CoreSupport\core_cm4.h(122): warning:  #47-D: incompatible redefinition of macro "__FPU_USED"
+      #define __FPU_USED         0
+..\..\..\..\Libraries\drivers\K\src\systick.c: 1 warning, 0 errors
+compiling common.c...
+..\..\..\..\Libraries\startup\CoreSupport\core_cm4.h(122): warning:  #47-D: incompatible redefinition of macro "__FPU_USED"
+      #define __FPU_USED         0
+..\..\..\..\Libraries\drivers\K\src\common.c: 1 warning, 0 errors
+compiling sd.c...
+..\..\..\..\Libraries\startup\CoreSupport\core_cm4.h(122): warning:  #47-D: incompatible redefinition of macro "__FPU_USED"
+      #define __FPU_USED         0
+..\..\..\..\Libraries\drivers\K\src\sd.c: 1 warning, 0 errors
+compiling dac.c...
+..\..\..\..\Libraries\startup\CoreSupport\core_cm4.h(122): warning:  #47-D: incompatible redefinition of macro "__FPU_USED"
+      #define __FPU_USED         0
+..\..\..\..\Libraries\drivers\K\src\dac.c: 1 warning, 0 errors
+compiling LQ12864.c...
+E:\MK60_Pros\13_LQ_OLED_K60\src\Sources\C\LQ12864.c(40): error:  #5: cannot open source input file "includes64.h": No such file or directory
+  #include "includes64.h"
+E:\MK60_Pros\13_LQ_OLED_K60\src\Sources\C\LQ12864.c: 0 warnings, 1 error
+".\mk60d10\flash\templete.axf" - 31 Error(s), 13 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  F:\CH-K-Lib\Project\超核K60-K64开发板-基础例程\静电\MDK\RTE
+  D:\Keil\ARM\PACK\Keil\Kinetis_K60_DFP\1.4.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+Build Time Elapsed:  00:00:07
+</pre>
+</body>
+</html>

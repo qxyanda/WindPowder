@@ -1,0 +1,13 @@
+.\mk60d10\flash\ucguifunc_ili9320.o: ..\..\..\..\Libraries\devices\src\ucGuiFunc_ili9320.c
+.\mk60d10\flash\ucguifunc_ili9320.o: ..\..\..\..\Libraries\devices\inc\ili9320.h
+.\mk60d10\flash\ucguifunc_ili9320.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\mk60d10\flash\ucguifunc_ili9320.o: ..\..\..\..\Libraries\devices\inc\ads7843.h
+.\mk60d10\flash\ucguifunc_ili9320.o: ..\..\..\..\Libraries\drivers\K\inc\common.h
+.\mk60d10\flash\ucguifunc_ili9320.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdbool.h
+.\mk60d10\flash\ucguifunc_ili9320.o: D:\Keil\ARM\ARMCC\Bin\..\include\stddef.h
+.\mk60d10\flash\ucguifunc_ili9320.o: ..\..\..\..\Libraries\startup\DeviceSupport\MK60D10.h
+.\mk60d10\flash\ucguifunc_ili9320.o: ..\..\..\..\Libraries\startup\CoreSupport\core_cm4.h
+.\mk60d10\flash\ucguifunc_ili9320.o: ..\..\..\..\Libraries\startup\CoreSupport\core_cmInstr.h
+.\mk60d10\flash\ucguifunc_ili9320.o: ..\..\..\..\Libraries\startup\CoreSupport\core_cmFunc.h
+.\mk60d10\flash\ucguifunc_ili9320.o: ..\..\..\..\Libraries\startup\CoreSupport\core_cm4_simd.h
+.\mk60d10\flash\ucguifunc_ili9320.o: ..\..\..\..\Libraries\startup\DeviceSupport\system_MK60D10.h

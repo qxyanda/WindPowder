@@ -1,0 +1,10 @@
+.\mk64f12\arm_cfft_radix4_init_f32.o: D:\Keil\ARM\Pack\ARM\CMSIS\5.0.0-Beta4\CMSIS\DSP_Lib\Source\TransformFunctions\arm_cfft_radix4_init_f32.c
+.\mk64f12\arm_cfft_radix4_init_f32.o: ..\..\..\..\Libraries\drivers\K\inc\arm_math.h
+.\mk64f12\arm_cfft_radix4_init_f32.o: ..\..\..\..\Libraries\startup\CoreSupport\core_cm4.h
+.\mk64f12\arm_cfft_radix4_init_f32.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\mk64f12\arm_cfft_radix4_init_f32.o: ..\..\..\..\Libraries\startup\CoreSupport\core_cmInstr.h
+.\mk64f12\arm_cfft_radix4_init_f32.o: ..\..\..\..\Libraries\startup\CoreSupport\core_cmFunc.h
+.\mk64f12\arm_cfft_radix4_init_f32.o: ..\..\..\..\Libraries\startup\CoreSupport\core_cm4_simd.h
+.\mk64f12\arm_cfft_radix4_init_f32.o: D:\Keil\ARM\ARMCC\Bin\..\include\string.h
+.\mk64f12\arm_cfft_radix4_init_f32.o: D:\Keil\ARM\ARMCC\Bin\..\include\math.h
+.\mk64f12\arm_cfft_radix4_init_f32.o: ..\..\..\..\Libraries\drivers\K\inc\arm_common_tables.h

@@ -1,0 +1,13 @@
+.\mk60d10\flash\mt47h64m16hr.o: ..\..\..\..\Libraries\devices\src\MT47H64M16HR.c
+.\mk60d10\flash\mt47h64m16hr.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdio.h
+.\mk60d10\flash\mt47h64m16hr.o: ..\..\..\..\Libraries\drivers\K\inc\common.h
+.\mk60d10\flash\mt47h64m16hr.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\mk60d10\flash\mt47h64m16hr.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdbool.h
+.\mk60d10\flash\mt47h64m16hr.o: D:\Keil\ARM\ARMCC\Bin\..\include\stddef.h
+.\mk60d10\flash\mt47h64m16hr.o: ..\..\..\..\Libraries\startup\DeviceSupport\MK60D10.h
+.\mk60d10\flash\mt47h64m16hr.o: ..\..\..\..\Libraries\startup\CoreSupport\core_cm4.h
+.\mk60d10\flash\mt47h64m16hr.o: ..\..\..\..\Libraries\startup\CoreSupport\core_cmInstr.h
+.\mk60d10\flash\mt47h64m16hr.o: ..\..\..\..\Libraries\startup\CoreSupport\core_cmFunc.h
+.\mk60d10\flash\mt47h64m16hr.o: ..\..\..\..\Libraries\startup\CoreSupport\core_cm4_simd.h
+.\mk60d10\flash\mt47h64m16hr.o: ..\..\..\..\Libraries\startup\DeviceSupport\system_MK60D10.h
+.\mk60d10\flash\mt47h64m16hr.o: ..\..\..\..\Libraries\devices\inc\MT47H64M16HR.h

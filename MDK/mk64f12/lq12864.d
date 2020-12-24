@@ -1,0 +1,15 @@
+.\mk64f12\lq12864.o: E:\MK60_Pros\13_LQ_OLED_K60\src\Sources\C\LQ12864.c
+.\mk64f12\lq12864.o: E:\MK60_Pros\13_LQ_OLED_K60\src\Sources\H\includes64.h
+.\mk64f12\lq12864.o: E:\MK60_Pros\13_LQ_OLED_K60\src\Sources\H\Frame_H\common64.h
+.\mk64f12\lq12864.o: ..\..\..\..\Libraries\startup\DeviceSupport\MK64F12.h
+.\mk64f12\lq12864.o: J:\MDK-ARM\ARM\ARMCC\Bin\..\include\stdint.h
+.\mk64f12\lq12864.o: ..\..\..\..\Libraries\startup\CoreSupport\core_cm4.h
+.\mk64f12\lq12864.o: ..\..\..\..\Libraries\startup\CoreSupport\core_cmInstr.h
+.\mk64f12\lq12864.o: ..\..\..\..\Libraries\startup\CoreSupport\core_cmFunc.h
+.\mk64f12\lq12864.o: ..\..\..\..\Libraries\startup\CoreSupport\core_cm4_simd.h
+.\mk64f12\lq12864.o: ..\..\..\..\Libraries\startup\DeviceSupport\system_MK64F12.h
+.\mk64f12\lq12864.o: E:\MK60_Pros\13_LQ_OLED_K60\src\Sources\H\Component_H\light64.h
+.\mk64f12\lq12864.o: E:\MK60_Pros\13_LQ_OLED_K60\src\Sources\H\Component_H\gpio64.h
+.\mk64f12\lq12864.o: E:\MK60_Pros\13_LQ_OLED_K60\src\Sources\H\Component_H\LQ12864.h
+.\mk64f12\lq12864.o: ..\..\..\..\Libraries\drivers\K\inc\gpio.h
+.\mk64f12\lq12864.o: J:\MDK-ARM\ARM\ARMCC\Bin\..\include\stdbool.h
